@@ -1,0 +1,12 @@
+.container {
+    width: 1110px;
+    margin: 0 auto;
+
+}
+
+.section {
+    width: 1110px;
+    height: 375px;
+    background-image: url('../img/hero/Black.svg');
+    
+}

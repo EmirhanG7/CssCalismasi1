@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;;
+}
+
+
+.kutu {
+    background-color: lightseagreen;
+    border: 2px solid lightgreen;
+    color: #fff;
+    padding: 10px;
+    /* flex-grow: 1; */
+}
+.kutular {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    background-color: lightskyblue;
+    /* height: 50vh; */
+    gap: 5px;
+}
+
+.ozelkutu {
+    /* align-self: center; */
+    /* flex-grow: 3; */
+    flex-basis: 200px; /*genişlik ama width değil*/
+    flex-shrink: 0;
+
+}
+
